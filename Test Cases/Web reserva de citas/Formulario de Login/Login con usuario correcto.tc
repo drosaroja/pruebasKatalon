@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login con usuario correcto</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7d9bbd3-8388-4dac-a50d-385b057f75d0</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>42489982-8f82-43ac-a45d-9b01c1f03e12</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Web reservas de citas/Usuarios Existentes</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>42489982-8f82-43ac-a45d-9b01c1f03e12</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>usuario</value>
+      <variableId>354b2702-39d8-40c7-ac8e-0f9acac857e1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>42489982-8f82-43ac-a45d-9b01c1f03e12</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>contrasenna del usuario</value>
+      <variableId>b26e63b5-c223-4606-a0a0-d73225f4a318</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>354b2702-39d8-40c7-ac8e-0f9acac857e1</id>
+      <masked>false</masked>
+      <name>nombre_usuario</name>
+   </variable>
+   <variable>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
+      <description></description>
+      <id>b26e63b5-c223-4606-a0a0-d73225f4a318</id>
+      <masked>false</masked>
+      <name>password_usuario</name>
+   </variable>
+</TestCaseEntity>

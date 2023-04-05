@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Usuarios No Existentes</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>d9035db2-91f2-44a2-84d3-1aa72f0b3edc</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>John+Doe RUINA</data>
+   <data>RUINA ThisIsNotAPassword</data>
+   <data>RUINA RUINA</data>
+   <data>null null</data>
+   <data>RUINA2 RUINA2</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>usuario</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>contrasenna del usuario</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
